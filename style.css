@@ -83,7 +83,7 @@ body {
 }
 
 /************************************************************************************
-    Default fonts, size, line height and margins for any paragraph, unless overriden
+    Default fonts, size, line height and margins for any paragraph
 ************************************************************************************/
 p {
     font-family: 'Montserrat', sans-serif;
@@ -102,13 +102,13 @@ p {
 **************************/
 a:link{
     text-decoration: none;
-    color: #e0162b;
+    color: #000000;
 }
 a:hover{
     color: #0052a5;
 }
 a:visited{
-    color:#999;
+    color:#0000CD;
 }
 
 /***********************
@@ -132,7 +132,7 @@ footer {
 
 /***********************************************
     Style for the margin on the bodyText
-    paragram. Both left and right set to 50px
+
 ***********************************************/
 #bodytext {
     margin: 0 50px;
@@ -149,7 +149,7 @@ footer {
 }
 
 /*****************************************
-    Style for the introductory paragraph
+    intro paragraph style
 *****************************************/
 #intro-paragraph {
     font-family: 'Montserrat', sans-serif;
