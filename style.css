@@ -1,0 +1,409 @@
+/**********************************
+    Navbar
+**********************************/
+.bg-dark {
+    background: #0C090A!important;
+}
+ul.navbar-nav {
+    margin-left: 50%;
+}
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25em;
+    color: white;
+}
+.navbar-brand {
+    padding-left: 5px;
+    font-weight: bold;
+}
+#navbarSupportedContent {
+    font-weight: bold;
+}
+
+
+/*********************************
+    Header
+********************************/
+#header {
+    text-align: center;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/**********************************
+    Default H1 tag size, font,
+    weigth and alignment
+**********************************/
+h1 {
+    font-size: 3em;
+    font-family: 'Garamond', serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.stack-image {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+/**********************************
+    Caption style for image
+**********************************/
+.caption {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #999;
+    text-align: center;
+}
+
+
+/*********************************************
+    Graphic / Chart content style
+*********************************************/
+.graphic-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+}
+.graphic-container h2 {
+    font-size: 2em;
+}
+
+/****************************************************
+    Page body
+****************************************************/
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/************************************************************************************
+    Default fonts, size, line height and margins for any paragraph, unless overriden
+************************************************************************************/
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25em;
+    text-align: left;
+    line-height: 180%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+
+
+/**************************
+    links decoration
+**************************/
+a:link{
+    text-decoration: none;
+    color: #e0162b;
+}
+a:hover{
+    color: #0052a5;
+}
+a:visited{
+    color:#999;
+}
+
+/***********************
+    footer styles
+***********************/
+footer {
+    background-color: #0C090A;
+    max-height: 75px;
+    max-width: 100%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    padding: 25px;
+    font-weight: normal;
+}
+.footer h6 {
+    font-weight: normal;
+}
+
+
+/***********************************************
+    Style for the margin on the bodyText
+    paragram. Both left and right set to 50px
+***********************************************/
+#bodytext {
+    margin: 0 50px;
+}
+
+/*******************************************
+    Any headline with H2 tag gets
+    these styles
+*******************************************/
+#Headline h2 {
+    font-weight: bold;
+    margin-top: 15px;
+    line-height: 1.8em;
+}
+
+/*****************************************
+    Style for the introductory paragraph
+*****************************************/
+#intro-paragraph {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+/*****************************************
+    Style for Chapter title
+*****************************************/
+.chapterTitle {
+    text-align: left;
+    font-size: 2.5em;
+    font-family: 'Garamond', serif;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+
+.byLine {
+    line-height: 1.7em;
+}
+
+/*****************************************
+    Default fonts and alignments for
+    the h2-6 tags
+*****************************************/
+h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/****************************
+  Hero image
+*****************************/
+.hero-image {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+
+p.bottomParagraph {
+    margin: 0 0 50px 0 !important;
+}
+
+/*******************************************************************************************************
+     Responsive styles for extra small devices (portrait phones, less than 576px)
+*******************************************************************************************************/
+@media (max-width: 575.98px) {
+
+    h1,
+    h2 {
+        font-size: 1.1em !important;
+    }
+
+    h6 {
+        font-size: 8px;
+        margin-bottom: .2rem;
+    }
+
+    .byLine {
+        line-height: 1.5em;
+    }
+
+    .mt-3 {
+        margin-top: 1px !important;
+    }
+
+
+    #intro-paragraph {
+        font-size: .5em;
+        padding: 0 20px;
+    }
+
+    #bodytext {
+        margin: 0;
+    }
+
+    .chapterTitle {
+        font-size: 1.1em;
+    }
+
+    .chapterTitleParagraph {
+        font-size: 0.6em;
+        margin-top: 10px;
+    }
+
+    .caption {
+        font-size: .8em;
+        padding-bottom: 5px;
+    }
+
+    .stack-image {
+        padding-top: 0px;
+    }
+
+    .graphic-container {
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
+
+    .graphic-container p {
+        font-size: .8em;
+        text-align: left;
+        margin-top: 5px;
+        margin-bottom: 25px;
+    }
+
+    .graphic-container em {
+        font-size: .6em;
+    }
+
+
+    a.navbar-brand {
+        font-size: 15px;
+    }
+
+    ul.navbar-nav.mr-auto {
+        font-size: 15px;
+        text-align: right;
+    }
+
+    nav.navbar.navbar-expand-lg.navbar-dark.bg-dark,
+    ul.navbar-nav.mr-auto {
+        display: block !important;
+    }
+
+    button.navbar-toggler {
+        float: right;
+    }
+
+}
+
+/*******************************************************************************************************
+    Responsive styles for small devices (landscape phones, 576px and up)
+********************************************************************************************************/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    h1,
+    h2 {
+        font-size: 1.1em !important;
+    }
+
+    h6 {
+        font-size: 8px;
+        margin-bottom: .2rem;
+    }
+
+    .byLine {
+        line-height: 1.5em;
+    }
+
+    .mt-3 {
+        margin-top: 1px !important;
+    }
+
+
+    #intro-paragraph {
+        font-size: .5em;
+        padding: 0 20px;
+    }
+
+    #bodytext {
+        margin: 0;
+    }
+
+    .chapterTitle {
+        font-size: 1.1em;
+    }
+
+    .chapterTitleParagraph {
+        font-size: 0.6em;
+        margin-top: 10px;
+    }
+
+    .caption {
+        font-size: .8em;
+        padding-bottom: 5px;
+    }
+
+    .stack-image {
+        padding-top: 0px;
+    }
+
+    .graphic-container {
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
+
+    .graphic-container p {
+        font-size: .8em;
+        text-align: left;
+        margin-top: 5px;
+        margin-bottom: 25px;
+    }
+
+    .graphic-container em {
+        font-size: .6em;
+    }
+
+    ul.navbar-nav.mr-auto {
+        font-size: 15px;
+        text-align: right;
+    }
+
+    nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+        display: block !important;
+    }
+
+    button.navbar-toggler {
+        float: right;
+    }
+
+
+}
+
+/*******************************************************************************************************
+    Responsive styles for medium devices (tablets, 768px and up)
+*******************************************************************************************************/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    ul.navbar-nav.mr-auto {
+        text-align: right;
+    }
+
+    nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+        display: block !important;
+    }
+
+    button.navbar-toggler {
+        float: right;
+    }
+
+}
+
+/*******************************************************************************************************
+    Responsive styles for large devices (desktops, 992px and up)
+*******************************************************************************************************/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+        display: block !important;
+    }
+
+    button.navbar-toggler {
+        float: right;
+    }
+
+
+}
+
+/*******************************************************************************************************
+    Responsive styles for extra large devices (large desktops, 1200px and up)
+*******************************************************************************************************/
+@media (min-width: 1200px) {}

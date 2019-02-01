@@ -1,0 +1,418 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Crowley Final Project</title>
+    <meta name="description" content="Crowley Final Project">
+    <meta name="author" content="Colleen Crowley">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+
+    <!-- Load c3.css -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
+
+
+    <!-- Load d3.js and c3.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
+
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|PT+Serif:400,700" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <!--Hamburger menu(responsive menu)-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--Navigation links (menu items)-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <!-- Link -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#Past">A Brief History</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Present">In the Moment</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Future">Looking Forward</a>
+                </li>
+                <!-- End Link -->
+            </ul>
+        </div>
+     </nav>
+    <!--End NavBar-->
+
+<!--**********************************************************************************************************************-->
+
+    <!--Content / main body section-->
+
+
+      <div class = "container-fluid" style = "background-color: #FEFCFF">
+
+        <!--Image Link of Hero Image-->
+          <div class="row">
+            <div class="col">
+                <img src="Images/hispanic_catholics.jpg" id="hispanic_catholics_image" alt="hispanic_catholics" class="img-fluid hero-image mx-auto d-block">
+                <p class="caption font-weight-light">
+                    Catholic women carry a crucifix and an image of Mary. Credit: <a href="http://www.cathnewsusa.com/2014/05/latinos-leaving-catholic-church/">CathNewsUSA</a>
+                </p>
+            </div>
+          </div>
+
+
+      <!--Headline-->
+          <div class="row">
+            <div class="col">
+              <div id="Headline" class="xcontainer">
+                <h1>The Changing Face of Catholicism in the United States</h1>
+                    <!--Byline-->
+                    <h6 class="text-center font-weight-bold mt-3 byLine">By Colleen Crowley</h6>
+              </div>
+             </div>
+          </div>
+
+        <!--Introductory Paragraph-->
+            <div class="row">
+              <div class="col">
+                <div id="intro-paragraph" class="container">
+                    <p>In the United States, Catholicism started out as the religion of immigrants. As floods of
+                      newcomers arrived on these shores in the 19th century, they initially faced resistance from
+                      native-born Americans. The Catholic population continued to grow and became one of the
+                      largest religious groups in the nation. However, recent studies have shown that the church is
+                      in danger of losing many of its followers. Now, the survival of the largest Christian
+                      denomination in the country depends upon immigrants once more.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+        <!--End Intro Paragraph-->
+
+<!--**********************************************************************************************************************-->
+
+        <!--Main body, chapters, images and paragraphs-->
+
+          <!--Main Body text-->
+            <div id="bodytext" class="xcontainer">
+                <div class="row">
+                  <div class="col">
+
+
+            <!--PAST Section--->
+                   <span class="chapterTitle" id="Past"><strong>A Brief History</strong></span>
+
+                      <!--Paragraph One-->
+                          <p class="chapterTitleParagraph">During the infancy of the United States, almost
+                                everyone practiced one of the various denominations of Protestantism. A small
+                                Roman Catholic population existed, mainly in the Maryland area, and in 1789,
+                                the Diocese of Baltimore became the first Catholic diocese in the nation.In the
+                                mid 19th century, the wave of Irish and German Catholic immigrants quickly began
+                                changing the religious makeup of the country. What was once a mostly Protestant
+                                nation was now home to millions of Catholics, mostly in the urban centers of the
+                                northeast. The arrival of Southern and Eastern European Catholics, like Italians
+                                and Poles, continued to boost the population and by the turn of the century,
+                                nearly 1/6 of the population was Catholic
+                            </p>
+
+                        <!--Responsive image of Nast Cartoon along with a caption-->
+                            <div class="container text-center">
+                              <label>
+                                    <img src="images/Thomas Nast cartoon.jpg" id=".Thomas Nast cartoon" alt="Cartoon by Thomas Nast" class="img-fluid stack-image">
+                                    <p class="caption font-weight-light">
+                                        In this 1871 cartoon by <a href="https://thomasnastcartoons.com/irish-catholic-cartoons/the-american-river-ganges-1871/">Thomas Nast</a> for Harper's Weekly, a Protestant community leader defends
+                                        women and children from the encroachment of Catholic bishops.
+                                    </p>
+                              </label>
+                            </div>
+
+                        <!--Paragraph Two-->
+                          <div class="row">
+                            <div class="col">
+                              <p class="mt-0 mb-0 chapterTitleParagraph">With the arrival of Roman Catholic immigrants
+                                came anti-Catholic sentiment, first in the form of the Know Nothing movement in the
+                                1850’s and then in the second rise of the Ku Klux Klan in 1915. However, by the middle
+                                 of the 20th century, anti-Catholic sentiment died down and by 1960, the United States
+                                 had its first (and only) Roman Catholic president.
+                              </p>
+                            </div>
+                          </div>
+
+                      <br>
+                    <!--Paragraph Three--------->
+                      <div class="row">
+                        <div class="col">
+                            <p class="bottomParagraph chapterTitleParagraph">Now, nearly 25 percent of the United States
+                              population is Catholic. However, that could easily change. Whether it is due to scandals,
+                              secularism or a genuine loss of faith, the Catholic Church in the United States is seeing
+                              the faithful leave in droves.
+                              </p>
+                            </div>
+                          </div>
+                      <!--paragraph end-->
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+          <!--End of Past section-->
+
+
+<!--**********************************************************************************************************************-->
+
+          <!--PRESENT Section-->
+            <div class = "container-fluid" style = "background-color: #FEFCFF">
+              <div id="bodytext" class="xcontainer">
+                <div class="row">
+                  <div class="col">
+
+                  <!--Chapter title-->
+                    <span class="chapterTitle"id="Present"><strong>In the Moment</strong></span>
+
+                    <!--Paragraph One-------->
+                        <p class="chapterTitleParagraph">As American society moves closer towards a more secular lifestyle, many religions,
+                                 including Catholicsm, have seen a decrease in their ranks. Although the Catholic community  in the United
+                                 States is growing from a numbers standpoint, the overall percentage of americans who practice the religion
+                                  has dropped significantly.According to the <a href="http://cara.georgetown.edu/frequently-requested-church-statistics/">Center for Applied Research in the Apostolate</a> (CARA), the number of parish-connected
+                                  Catholics has grown from 47.9 million in 1970 to 68.5 million in 2017. However, that increase doesn’t take
+                                  into account the general population growth of the country in the last half century. As a result of that boom,
+                                  the Catholic community, which once comprised 33.3 percent of the US population in 1965, has decreased to 25.1 percent of the population in 2010, a net loss of 8.2 percent, according to <a href="http://graphics.wsj.com/catholics-world/">The Washington Post</a>.
+                                </p>
+
+
+                      <!--Graphic / Chart container----------->
+                          <div class="row">
+                            <div class="col">
+                              <h2 class="text-center">Individuals raised in the faith who no longer identify as Catholic</h2>
+                                <p>Although the Catholic population in the United States has grown, the number of adults who have left the faith has grown as well.</p>
+                                 <div id="FormerCatholicsChart" <class="graphic-container"></div>
+                                  <div id="FormerCatholicsChart"></div>
+                                     <div class="text-center font-weight-normal"><em>Source: Data collected by the Center for Applied Research in the Apostolate</em>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                    <!-- END graphic container-->
+
+                  <!--Paragraph Two-->
+                          <div class="row">
+                            <div class="col">
+                              <p class="mt-0 mb-0 chapterTitleParagraph">There are several factors for this decrease in the overall
+                                      percentage of practicing Catholics in the country. Firstly, the number of former Catholics is
+                                      on the rise, from 7.5 million in 1975 to 30 million in 2017 (CARA). Shifting cultural attitudes
+                                      towards homosexuality, women’s productive rights, extra marital sexual activity and other issues
+                                      have turned many people, especially younger adults, away from an institution that many view as
+                                      “behind the times.”
+                                      </p>
+                                    <br>
+                                </div>
+                              </div>
+
+
+                      <!--Section Image---->
+                            <div class="container text-center">
+                                <label>
+                                  <img src="images/Mass_BW.jpg" id=".Mass_BW" alt="MassBW" class="img-fluid stack-image">
+                                        <p class="caption font-weight-light">The Catholic population is aging as more young people leave the faith. Credit: <a href="https://news.gallup.com/poll/232226/church-attendance-among-catholics-resumes-downward-slide.aspx">Gallup</a>
+                                      </p>
+                                </label>
+                            </div>
+
+                      <!--Paragraph Three--------->
+                              <div class="row">
+                                <div class="col">
+                                  <p class="bottomParagraph chapterTitleParagraph">Secondly, according to CARA, the number of baptisms
+                                        year-over-year has plummeted, from 1.089 million in 1970 to 660,367 in 2017. Thirdly, the Catholic population as a whole is getting older. A recent <a href="https://news.nationalgeographic.com/2015/09/150917-data-points-how-catholic-population-has-shifted-in-the-united-states/">National Geographic</a> report showed that from 1987 to 2014, the percent of Catholics aged 50+ increased from 32 percent to
+                                        50 percent. Additionally, a <a href="http://www.pewforum.org/2015/05/12/chapter-3-demographic-profiles-of-religious-groups/">Pew Research Center</a> study revealed that the median age for a Catholic person has increased, from 45 years old in 2007 to 49 years old in 2014.
+                                        </p>
+                                      </div>
+                                    </div>
+                                <!--paragraph end-->
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+<!--End of Present section-->
+
+<!--**********************************************************************************************************************-->
+
+
+<!--FUTURE section-->
+
+          <div class = "container-fluid" style = "background-color: #FEFCFF">
+            <div id="bodytext" class="xcontainer">
+              <div class="row">
+                <div class="col">
+
+            <!--Chapter title----------------->
+                    <span class="chapterTitle"id="Future"><strong>Looking Forward</strong></span>
+
+                    <!--Paragraph One------->
+                        <p class="chapterTitleParagraph">Despite the dismal numbers, there is hope for the Catholic Church in
+                                the United States, and it is once again due to the faith of immigrants. The number of
+                                foreign-born Catholic adults in the U.S. is on the rise, from 4.7 million in 1975 to 16.9 million
+                                in 2017, according to CARA. Many of these individuals are Hispanic; National Geographic reports
+                                that the Hispanic population within the U.S. Catholic Church had risen from just 10 percent of adherents
+                                in 1987 to 34 percent in 2014.
+                              </p>
+
+                <!--Responsive image of Youth and Pope Francis---->
+                        <div class="container text-center">
+                          <label>
+                            <img src="images/Youth.jpg" id=".Youth" alt="Youth" class="img-fluid stack-image">
+                              <p class="caption font-weight-light">
+                                  Two young people of Hispanic descent pose with a cardboard cut-out of Pope Francis at an event in Philadelphia. Credit: <a href="https://www.theatlantic.com/politics/archive/2015/09/can-pope-francis-reverse-the-decline-of-hispanic-catholics/406381/">The Atlantic</a> (Mark Makela/Reuters)
+                              </p>
+                          </label>
+                        </div>
+
+
+                  <!--Paragraph Two------->
+                        <div class="row">
+                          <div class="col">
+                            <p class="mt-0 mb-0 chapterTitleParagraph">In fact, the Catholic Church in the U.S. is surprisingly diverse.
+                                    From 2007 to 2014, the percentage of non-white Catholics in the US has increased from 35 percent to 41
+                                    percent of the total Catholic population, according to the Pew Research Center study. That makes
+                                    Catholicism the third most diverse Christian group (percentage-wise) in the country, after historically black Protestants and
+                                    Jehovah’s Witness.
+                                  </p>
+                                <br>
+                              </div>
+                            </div>
+
+
+                        <!--Graphic / Chart container---------->
+                          <div class="row">
+                            <div class="col">
+                              <h2 class="text-center">Ethnic Breakdown of American Catholic Population, 2007 to 2014</h2>
+                                <p> While the percent of white Catholics decreased from 2007 to 2014, the Hispanic Catholic population grew.</p>
+                                <div id="BarGraphRaceBreakdown" <class="graphic-container"></div>
+                                <div class="text-center font-weight-normal"><em>Source: Data collected by <a href="http://www.pewforum.org/2015/05/12/chapter-3-demographic-profiles-of-religious-groups/">Pew Research Center</a></em>
+                              </div>
+                            </div>
+                      <!-- END graphic container-->
+                  
+
+                    <!--Paragraph Three------->
+                        <div class="row">
+                          <div class="col">
+                            <p class="mt-0 mb-0 chapterTitleParagraph">And so, as times change, so will the Catholic Church
+                                  in America.  Immigrants make up the fabric of the United States, and they make up the soul of
+                                  the nation’s Catholic Church. They always have.
+                                  </p>
+                                <br>
+                              </div>
+                            </div>
+                            <!--paragraph end-->
+
+                 </div>
+                </div>
+              </div>
+            </div>
+
+                <!--End Main Body text, chapters, images and paragraphs- THIS IS THE ENTIRE MAIN CONTENT-->
+
+    </div>
+
+
+
+<!--**********************************************************************************************************************-->
+
+
+
+    <!--Footer---------->
+    <footer class="footer container-fluid">
+        <h6 class="footerText2 mt-4">Copyright 2019 Crowley</h6>
+    </footer>
+
+
+    <!--Javascript section for loading jQuery and other javascript libraries--->
+
+    <!-- jQuery , Popper.js, Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+
+    <!-- c3 script-->
+    <script>
+        //CHART 1
+        var chart = c3.generate({
+            bindto: '#FormerCatholicsChart',
+            data: {
+                x: 'x',
+                columns: [
+                    ['x', 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2017
+                    ],
+                    ['Self Identified Former Catholics in the millions', 7.5, 8.6, 8.0, 10.3, 17.3, 19.1, 26.8, 25.0, 30
+                    ],
+                ]
+            },
+            color: {
+                pattern: [ '#455380', ]
+            }
+        });
+
+        onReady('#BarGraphRaceBreakdown', function() {
+        var chart2 = c3.generate(
+          { bindto: '#BarGraphRaceBreakdown',
+            data:
+              {
+                columns: [
+                  ['White, 2007', 65],
+                  ['White, 2014', 59],
+                  ['Hispanic, 2007', 29],
+                  ['Hispanic, 2014', 34],
+                  ['Black, 2007', 2],
+                  ['Black, 2014', 3],
+                  ['Asian, 2007', 2],
+                  ['Asian, 2014', 3],
+                  ['Other, 2007', 2],
+                  ['Other, 2014', 2],
+
+                ],
+                type: 'bar'
+              },
+            color: {
+              pattern: ['#2a8dc5', '#455380', '#ee6a4b','#f93507', '#60c4b2', '#03af76','#e0a8f7', '#973895', '#f7a8da', '#e00d92']
+            }
+        }
+      );
+    });
+    function onReady(selector, callback) {
+        var intervalID = window.setInterval(function() {
+          if (document.querySelector(selector) !== undefined) {
+            window.clearInterval(intervalID);
+            callback.call(this);
+          }
+        }, 500);
+      }
+    </script>
+
+
+
+</body>
+
+
+</html>
